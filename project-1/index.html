@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+</head>
+<body bgcolor="violet" topmargin="5">
+<h1 align="center"><font color="white" face="cursive">Welcome to swadeshi co.pvt.ltd.</font></h1>
+<h4 align="center"><font color="white"> please fill the order form</font></h4>
+<form>
+<label for="name">Name:</label>
+<input type="text" size="6" maxlength="15"><br>
+<label>Email:</label>
+<input type="text" name="email">
+<br>
+<label>Adress:</label>
+<input type="text" name="address">
+<br>
+<label>Picode:</label>
+<input type="text" name="pincode"><br><br><br>
+<table border="3" bgcolor="grey">
+<th><td>Product-name</td><td>Product_ID</td><td>quantity</td><td>Unit price</td><td>Total</td>
+</th>
+<tr><td>kurta-pyjama</td><td>KP</td><td><input type="text" name="quantity"></td><td>Rs.1500</td><td><input type="text" name="total"></td></tr><br><br><br><br>
+
+</table>
+
+<b>Credit/Debit card details</b><br>
+<label>Card type:</label><br>
+<pre>
+<input type="radio" name="mastercard">Mastercard <label for="card no.">   Card number:</label><input type="text" name="card number"><br>
+<input type="radio" name="visa">Visa<label for="expiry date">          Expiry Date:</label><input type="text" name="expiry date" value="mm/yy"><br>
+<input type="radio" name="americanxepress">American express<label for="CVV">      CVV:</label><input type="text" name="CVV"><br><br><br>
+<b><nav><label for="delivery address">Delivery address</label></nav></b><textarea rows="20" cols="50" size="10" name="remarks" ></textarea>
+<br><br><br>
+</pre>
+<input type="Submit" name="Submit" value="Send"><input type="reset" name="reset" value="Clear form">
+</form>
+</body>
+</html>
